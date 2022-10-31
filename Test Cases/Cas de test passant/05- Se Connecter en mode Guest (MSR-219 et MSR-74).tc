@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05- Se Connecter en mode Guest (MSR-219 et MSR-74)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36a21166-dab1-4f49-86c1-88a6d2812f6c</testCaseGuid>
+</TestCaseEntity>

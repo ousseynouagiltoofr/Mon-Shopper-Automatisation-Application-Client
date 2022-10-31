@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Se connecter avec un compte google (MSR-2)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>df63625b-677d-4194-9a15-f3bc4ead6f0f</testCaseGuid>
+</TestCaseEntity>
