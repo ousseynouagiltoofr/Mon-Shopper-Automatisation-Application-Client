@@ -17,12 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Le client ouvre l\'application'
 Mobile.startApplication('C:\\Users\\Ousseynou Diop\\Desktop\\APK Client\\app-debug.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/06- Inscription avec le lien Inscrivez-vous/android.widget.Button Inscrivez-vous'), 0)
+'Le client clique sur le lien Inscrivez-vous'
+Mobile.tap(findTestObject('Object Repository/06- Inscription avec le lien Inscrivez-vous/android.widget.Button Inscrivez-vous'), 
+    0)
 
+'Vérifier que le formulaire d\'inscription s\'affiche'
 Mobile.verifyElementVisible(findTestObject('06- Inscription avec le lien Inscrivez-vous/android.widget.TextView - Senregistrer'), 
     0)
 
+'Le client ferme l\'application'
 Mobile.closeApplication()
 

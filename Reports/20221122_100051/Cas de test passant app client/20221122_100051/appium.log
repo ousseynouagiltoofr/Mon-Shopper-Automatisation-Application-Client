@@ -1,0 +1,1471 @@
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 50754
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\OUSSEY~1\AppData\Local\Temp\\Katalon\Appium\Temp1669108110608
+[35m[Appium][39m   chromedriverPort: 50756
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 50756
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:50754
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m6 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\Ousseynou Diop\\Desktop\\APK Client\\app-debug.apk","noReset":false,"deviceName":"samsung SM-A022F (Android 11)","fullReset":true,"platform":"ANDROID","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"RZ8R71P5YRT","systemPort":50753},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\Ousseynou Diop\\Desktop\\APK Client\\app-debug.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-A022F (Android 11)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":50753,"appium:udid":"RZ8R71P5YRT"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: 2653ab2c-ad04-4c66-ba27-464270e85c0d
+[35m[BaseDriver][39m Using local app 'C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk'
+[35m[ADB][39m Found 5 'build-tools' folders under 'C:\Users\Ousseynou Diop\AppData\Local\Android\Sdk' (newest first):
+[35m[ADB][39m     C:/Users/Ousseynou Diop/AppData/Local/Android/Sdk/build-tools/33.0.0
+[35m[ADB][39m     C:/Users/Ousseynou Diop/AppData/Local/Android/Sdk/build-tools/32.1.0-rc1
+[35m[ADB][39m     C:/Users/Ousseynou Diop/AppData/Local/Android/Sdk/build-tools/32.0.0
+[35m[ADB][39m     C:/Users/Ousseynou Diop/AppData/Local/Android/Sdk/build-tools/30.0.3
+[35m[ADB][39m     C:/Users/Ousseynou Diop/AppData/Local/Android/Sdk/build-tools/27.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Ousseynou Diop\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: RZ8R71P5YRT
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Ousseynou Diop\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'fr.agiltoo.myshopper.customer.test.release'
+[35m[ADB][39m Main activity name: 'com.example.myshopper_customer_app.MainActivity'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\Ousseynou Diop\AppData\Local\Android\Sdk\build-tools\33.0.0\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\Ousseynou Diop\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\Ousseynou Diop\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m 'C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk' is signed with a non-default certificate
+[35m[ADB][39m fr.agiltoo.myshopper.customer.test.release was not uninstalled, because it was not present on the device
+[35m[ADB][39m The application at 'C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'app-debug.apk' took 6820ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Ousseynou Diop\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Ousseynou Diop\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'fr.agiltoo.myshopper.customer.test.release/com.example.myshopper_customer_app.MainActivity and waiting for 'fr.agiltoo.myshopper.customer.test.release/com.example.myshopper_customer_app.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session 2653ab2c-ad04-4c66-ba27-464270e85c0d added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m28295 ms - 1298[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d [39m[32m200[39m [90m25 ms - 1252[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d [39m[32m200[39m [90m23 ms - 1252[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/screenshot [39m[32m200[39m [90m6143 ms - 19188[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect [39m[32m200[39m [90m27 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/appium/device/system_bars [39m[32m200[39m [90m211 ms - 145[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect [39m[32m200[39m [90m19 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m114 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m52 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m106 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m124 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m104 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m101 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m102 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m112 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m106 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m106 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m101 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m106 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Continuer en mode Guest"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m1217 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-000600000004/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2653ab2c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 9aabc509-97ea-4c67-bd61-16aa113314ee with 2653ab2c-ad04-4c66-ba27-464270e85c0d
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-000600000004/location [39m[32m200[39m [90m55 ms - 79[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-000600000004/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005b-0000-000600000004"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-000600000004/click [39m[32m200[39m [90m118 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect [39m[32m200[39m [90m17 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":" Livraison de colis "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m123 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":" Livraison de colis "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":" Livraison de colis "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":" Livraison de colis "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":" Livraison de colis "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m97 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":" Livraison de colis "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m52 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":" Livraison de colis "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m531 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":" Livraison de colis "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":" Livraison de colis "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":" Livraison de colis "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":" Livraison de colis "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":" Livraison de colis "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":" Livraison de colis "}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m831 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-000e00000004/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2653ab2c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 9aabc509-97ea-4c67-bd61-16aa113314ee with 2653ab2c-ad04-4c66-ba27-464270e85c0d
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-000e00000004/location [39m[32m200[39m [90m34 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-000e00000004/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005b-0000-000e00000004"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-000e00000004/click [39m[32m200[39m [90m73 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect [39m[32m200[39m [90m17 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Adresse de collecte' or . = 'Adresse de collecte') and @resource-id = '']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m2512 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Adresse de collecte' or . = 'Adresse de collecte') and @resource-id = '']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m1351 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001600000004/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2653ab2c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 9aabc509-97ea-4c67-bd61-16aa113314ee with 2653ab2c-ad04-4c66-ba27-464270e85c0d
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001600000004/location [39m[32m200[39m [90m31 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001600000004/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005b-0000-001600000004"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001600000004/click [39m[32m200[39m [90m95 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect [39m[32m200[39m [90m18 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m235 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m508 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m2760 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.widget.FrameLayout[1]/android.view.View[1]/android.view.View[1]/android.view.View[2]/android.view.View[1]/android.view.View[1]/android.view.View[1]"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m498 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001b00000004/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2653ab2c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 9aabc509-97ea-4c67-bd61-16aa113314ee with 2653ab2c-ad04-4c66-ba27-464270e85c0d
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001b00000004/location [39m[32m200[39m [90m248 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001b00000004/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005b-0000-001b00000004"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001b00000004/click [39m[32m200[39m [90m122 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect [39m[32m200[39m [90m24 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Adresse de livraison' or . = 'Adresse de livraison') and @resource-id = '']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m648 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001700000004/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2653ab2c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 9aabc509-97ea-4c67-bd61-16aa113314ee with 2653ab2c-ad04-4c66-ba27-464270e85c0d
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001700000004/location [39m[32m200[39m [90m936 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001700000004/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005b-0000-001700000004"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001700000004/click [39m[32m200[39m [90m524 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect [39m[32m200[39m [90m20 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.EditText' and (@text = 'Adresse de livraison' or . = 'Adresse de livraison') and @resource-id = '']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m1244 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001700000004/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (2653ab2c)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 9aabc509-97ea-4c67-bd61-16aa113314ee with 2653ab2c-ad04-4c66-ba27-464270e85c0d
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001700000004/location [39m[32m200[39m [90m1533 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001700000004/clear[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005b-0000-001700000004"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001700000004/clear [39m[32m200[39m [90m42 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001700000004/value[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-005b-0000-001700000004","text":"Pikine","value":["P","i","k","i","n","e"]}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/element/00000000-0000-005b-0000-001700000004/value [39m[32m200[39m [90m293 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/window/rect [39m[32m200[39m [90m81 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m1418 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m179 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m114 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m97 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m67 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m64 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m67 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m66 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m77 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m71 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m63 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m59 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m53 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m56 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m84 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m50 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m108 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m106 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m79 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m54 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m106 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m123 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m101 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m108 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m121 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m98 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m112 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m69 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m526 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m107 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m111 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m117 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m105 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m120 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m105 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m104 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m112 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m75 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m106 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m110 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m132 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m109 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m105 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m52 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m98 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m101 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m98 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m104 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m65 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m111 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m115 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m131 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m92 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m109 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m102 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m118 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m54 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m590 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m52 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m89 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m97 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m101 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m150 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m72 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m106 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m108 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m136 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m102 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m101 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m102 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m159 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m105 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m101 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m102 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m97 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m97 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m142 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m117 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m86 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m107 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m98 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m59 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m126 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m76 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m455 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m107 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m89 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m85 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m89 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m125 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m102 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m51 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m98 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m105 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m166 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m107 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m110 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m73 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m101 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m106 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m101 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m105 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m129 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m102 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m101 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m114 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m80 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m61 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m545 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m92 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m52 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m68 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m98 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m110 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m127 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m102 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m110 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m89 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m94 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m102 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m136 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m104 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m107 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m97 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m98 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m98 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m89 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m142 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m108 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m128 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m92 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m91 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m106 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m147 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m55 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m491 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m111 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m100 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m102 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m60 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m98 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m97 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m107 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m98 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m62 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m103 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m88 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m97 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m106 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m69 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m96 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m90 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m95 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m98 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m58 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m113 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m93 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m101 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m57 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m99 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m98 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m87 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"Pikine Rue 10, Dakar, Senegal"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/elements [39m[32m200[39m [90m101 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/context [39m[32m200[39m [90m1 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/contexts [39m[32m200[39m [90m99 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/screenshot [39m[32m200[39m [90m6591 ms - 462414[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session 2653ab2c-ad04-4c66-ba27-464270e85c0d from our master session list
+[35m[ADB][39m fr.agiltoo.myshopper.customer.test.release was successfully uninstalled
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/2653ab2c-ad04-4c66-ba27-464270e85c0d [39m[32m200[39m [90m3910 ms - 14[39m
+[35m[HTTP][39m [90m[39m

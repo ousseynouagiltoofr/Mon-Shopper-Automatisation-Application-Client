@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>15-Cliquer sur le pictogramme panier en mode Guest (MSR-295)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c35ffcba-e4c5-43c3-a0dd-a20711c9b728</testCaseGuid>
+</TestCaseEntity>

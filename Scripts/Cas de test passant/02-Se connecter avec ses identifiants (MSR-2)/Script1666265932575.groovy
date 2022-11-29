@@ -17,25 +17,33 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Le client ouvre l\'application'
 Mobile.startApplication('C:\\Users\\Ousseynou Diop\\Desktop\\APK Client\\app-debug.apk', true)
 
+'Le client clique sur bouton Se Connecter'
 Mobile.tap(findTestObject('Object Repository/02- Se connecter avec ses identifiants/Se connecter.android.widget.Button'), 
     0)
 
+'Le client saisit son Adresse électronique'
 Mobile.setText(findTestObject('Object Repository/02- Se connecter avec ses identifiants/username.android.widget.EditText'), 
     'pacorabanne@yopmail.com', 0)
 
+'Le client saisit son Mot De Passe '
 Mobile.setText(findTestObject('Object Repository/02- Se connecter avec ses identifiants/Password.android.widget.EditText'), 
     'Passer123', 0)
 
-Mobile.tap(findTestObject('Object Repository/02- Se connecter avec ses identifiants/android.widget.CheckBox - Se souvenir de moi'), 
+'Le client coche le checkbox Se Souvenir De Moi '
+Mobile.checkElement(findTestObject('Object Repository/02- Se connecter avec ses identifiants/android.widget.CheckBox - Se souvenir de moi'), 
     0)
 
+'Le client clique sur le bouton Se Connecter'
 Mobile.tap(findTestObject('Object Repository/02- Se connecter avec ses identifiants/android.widget.Button - Connexion'), 
     0)
 
+'Vérifier que le bouton Livraison de colis s\'affiche'
 Mobile.verifyElementVisible(findTestObject('02- Se connecter avec ses identifiants/android.view.View - Livraison de colis onglet'), 
     0)
 
+'Fermer l\'application'
 Mobile.closeApplication()
 

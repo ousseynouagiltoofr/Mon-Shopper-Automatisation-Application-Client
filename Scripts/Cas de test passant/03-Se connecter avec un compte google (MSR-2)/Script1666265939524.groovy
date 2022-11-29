@@ -17,15 +17,21 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Le client ouvre l\'application'
 Mobile.startApplication('C:\\Users\\Ousseynou Diop\\Desktop\\APK Client\\app-debug.apk', true)
 
+'Le client clique sur le bouton Se Connecter'
 Mobile.tap(findTestObject('Object Repository/03- Se connecter avec un compte google/android.widget.Button -Se connecter'), 
     0)
 
+'Le client clique sur le bouton  Social Login Google'
 Mobile.tap(findTestObject('Object Repository/03- Se connecter avec un compte google/android.view.View Button social-google Login'), 
     0)
 
-Mobile.verifyElementVisible(findTestObject(null), 0)
+'Vérifier que message d\'erreur : Erreur 403 : disallowed_useragent'
+Mobile.verifyElementNotVisible(findTestObject('03- Se connecter avec un compte google/android.widget.TextView - Erreur 403 disallowed_useragent'), 
+    0)
 
+'Le client ferme l\'application'
 Mobile.closeApplication()
 

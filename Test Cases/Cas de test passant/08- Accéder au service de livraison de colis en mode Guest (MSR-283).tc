@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>08- Accéder au service de livraison de colis en mode Guest (MSR-283)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3c698c89-ac6c-4625-8351-39985a936c00</testCaseGuid>
+</TestCaseEntity>

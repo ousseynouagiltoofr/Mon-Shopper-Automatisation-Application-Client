@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cas de test passant app client,,,,2022-11-16 14:37:44,2022-11-16 14:44:06,"6m - 22,589s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/01-Inscription (MSR-5),,,,2022-11-16 14:37:44,2022-11-16 14:38:39,"54,971s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:37:44,2022-11-16 14:38:26,"41,589s",PASSED
+"tap(findTestObject(""Object Repository/01-Inscription/Se connecter.android.widget.Button""), 0)",,,,2022-11-16 14:38:26,2022-11-16 14:38:31,"4,990s",PASSED
+"tap(findTestObject(""Object Repository/01-Inscription/android.widget.TextView - Enregistrement""), 0)",,,,2022-11-16 14:38:31,2022-11-16 14:38:39,"8,110s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/03-Se connecter avec un compte google (MSR-2),,,,2022-11-16 14:38:39,2022-11-16 14:38:59,"20,416s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:38:39,2022-11-16 14:38:59,"20,091s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/05- Se Connecter en mode Guest (MSR-219 et MSR-74),,,,2022-11-16 14:38:59,2022-11-16 14:39:20,"20,346s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:39:00,2022-11-16 14:39:20,"20,098s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/06- Inscription avec le lien Inscriver-vous (MSR-2),,,,2022-11-16 14:39:20,2022-11-16 14:39:40,"20,378s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:39:20,2022-11-16 14:39:40,"20,180s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/07- Modification de mot de passe oublier (MSR-3 et MSR-27),,,,2022-11-16 14:39:40,2022-11-16 14:40:00,"20,336s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:39:40,2022-11-16 14:40:00,"20,134s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/08- Accéder au service de livraison de colis (MSR-283),,,,2022-11-16 14:40:00,2022-11-16 14:40:21,"20,406s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:40:01,2022-11-16 14:40:21,"20,208s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/09-Accéder au service faire sa course en ligne (MSR-283),,,,2022-11-16 14:40:21,2022-11-16 14:40:41,"20,343s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:40:21,2022-11-16 14:40:41,"20,158s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/10-Saisir ses adresses de collecte et de livraison MSR-214),,,,2022-11-16 14:40:41,2022-11-16 14:41:02,"20,349s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:40:41,2022-11-16 14:41:02,"20,151s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/11- Ajouter un colis au panier (MSR-295),,,,2022-11-16 14:41:02,2022-11-16 14:41:22,"20,392s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:41:02,2022-11-16 14:41:22,"20,136s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/12- Retour à la page d ajout d un colis au panier (MSR-295),,,,2022-11-16 14:41:22,2022-11-16 14:41:42,"20,407s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:41:22,2022-11-16 14:41:42,"20,207s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/13-Supprimer un colis du panier ( MSR-295),,,,2022-11-16 14:41:42,2022-11-16 14:42:03,"20,395s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:41:43,2022-11-16 14:42:03,"20,177s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/14-Valider mon panier (MSR-295),,,,2022-11-16 14:42:03,2022-11-16 14:42:23,"20,375s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:42:03,2022-11-16 14:42:23,"20,178s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/15-Cliquer sur le pictogramme panier (MSR-295),,,,2022-11-16 14:42:23,2022-11-16 14:42:44,"20,394s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:42:23,2022-11-16 14:42:44,"20,188s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/16- Cliquer sur le bouton suivant après ajout dinformation complémentaire pour le shopper (MSR-297),,,,2022-11-16 14:42:44,2022-11-16 14:42:44,"0,217s",PASSED
+return null,,,,2022-11-16 14:42:44,2022-11-16 14:42:44,"0,001s",PASSED
+,,,,,,,
+Test Cases/Cas de test passant/22-Ajouter les informations de l expéditeur en mode Guest,,,,2022-11-16 14:42:44,2022-11-16 14:43:04,"20,360s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:42:44,2022-11-16 14:43:04,"20,117s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/23- Ajouter les informations du destinataire en mode Guest,,,,2022-11-16 14:43:04,2022-11-16 14:43:25,"20,443s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:43:04,2022-11-16 14:43:25,"20,195s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/24-Notation du shopper et pourboire (MSR-222),,,,2022-11-16 14:43:25,2022-11-16 14:43:46,"21,478s",FAILED
+closeApplication(),,,,2022-11-16 14:43:25,2022-11-16 14:43:46,"21,208s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/02-Se connecter avec ses identifiants (MSR-2),,,,2022-11-16 14:43:46,2022-11-16 14:44:06,"20,322s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-16 14:43:46,2022-11-16 14:44:06,"20,128s",FAILED

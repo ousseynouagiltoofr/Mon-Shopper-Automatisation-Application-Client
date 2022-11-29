@@ -19,5 +19,30 @@ import org.openqa.selenium.Keys as Keys
 
 Mobile.startApplication('C:\\Users\\Ousseynou Diop\\Desktop\\APK Client\\app-debug.apk', true)
 
-Mobile.tap(findTestObject('null'), 0)
+Mobile.tap(findTestObject('Object Repository/01-Inscription/Se connecter.android.widget.Button'), 0)
+
+Mobile.tap(findTestObject('Object Repository/01-Inscription/android.widget.TextView - Enregistrement'), 0)
+
+Mobile.setText(findTestObject('Object Repository/01-Inscription/firstName.android.widget.EditText'), 'Elhadji Ouseynou', 
+    0)
+
+Mobile.setText(findTestObject('Object Repository/01-Inscription/lastName.android.widget.EditText'), 'DIOP', 0)
+
+Mobile.setText(findTestObject('Object Repository/01-Inscription/email.android.widget.EditText'), 'aimerdiop11@yopmail.com', 
+    0)
+
+Mobile.setEncryptedText(findTestObject('Object Repository/01-Inscription/password.android.widget.EditText'), 'Cexku/mp9Z18eElUeR1LGg==', 
+    0)
+
+Mobile.setEncryptedText(findTestObject('Object Repository/01-Inscription/password-confirm.android.widget.EditText'), 'Cexku/mp9Z18eElUeR1LGg==', 
+    0)
+
+Mobile.tap(findTestObject('Object Repository/01-Inscription/android.widget.Button - Enregistrement'), 0)
+
+Mobile.tap(findTestObject('01-Inscription/android.widget.Button - Accepter'), 0)
+
+Mobile.verifyElementExist(findTestObject('01-Inscription/android.widget.TextView - Vous devez vrifier votre courriel pour activer votre compte'), 
+    0)
+
+Mobile.closeApplication()
 

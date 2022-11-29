@@ -1,0 +1,326 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cas de test passant app client,,,,2022-11-15 14:34:26,2022-11-15 14:57:44,"23m - 17,767s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/01-Inscription (MSR-5),,,,2022-11-15 14:34:26,2022-11-15 14:35:38,"1m - 11,411s",PASSED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:34:27,2022-11-15 14:35:14,"47,644s",PASSED
+"tap(findTestObject(""Object Repository/01-Inscription/Se connecter.android.widget.Button""), 0)",,,,2022-11-15 14:35:14,2022-11-15 14:35:15,"0,973s",PASSED
+"tap(findTestObject(""Object Repository/01-Inscription/android.widget.TextView - Enregistrement""), 0)",,,,2022-11-15 14:35:15,2022-11-15 14:35:24,"9,246s",PASSED
+"setText(findTestObject(""Object Repository/01-Inscription/firstName.android.widget.EditText""), ""Elhadji Ouseynou"", 0)",,,,2022-11-15 14:35:24,2022-11-15 14:35:25,"0,748s",PASSED
+"setText(findTestObject(""Object Repository/01-Inscription/lastName.android.widget.EditText""), ""DIOP"", 0)",,,,2022-11-15 14:35:25,2022-11-15 14:35:26,"1,148s",PASSED
+"setText(findTestObject(""Object Repository/01-Inscription/email.android.widget.EditText""), ""aimerdiop10@yopmail.com"", 0)",,,,2022-11-15 14:35:26,2022-11-15 14:35:27,"1,128s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/01-Inscription/password.android.widget.EditText""), ""Cexku/mp9Z18eElUeR1LGg=="", 0)",,,,2022-11-15 14:35:27,2022-11-15 14:35:29,"1,113s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/01-Inscription/password-confirm.android.widget.EditText""), ""Cexku/mp9Z18eElUeR1LGg=="", 0)",,,,2022-11-15 14:35:29,2022-11-15 14:35:30,"1,088s",PASSED
+"tap(findTestObject(""Object Repository/01-Inscription/android.widget.Button - Enregistrement""), 0)",,,,2022-11-15 14:35:30,2022-11-15 14:35:31,"1,671s",PASSED
+"tap(findTestObject(""01-Inscription/android.widget.Button - Accepter""), 0)",,,,2022-11-15 14:35:31,2022-11-15 14:35:33,"1,458s",PASSED
+"verifyElementExist(findTestObject(""01-Inscription/android.widget.TextView - Vous devez vrifier votre courriel pour activer votre compte""), 0)",,,,2022-11-15 14:35:33,2022-11-15 14:35:35,"2,120s",PASSED
+closeApplication(),,,,2022-11-15 14:35:35,2022-11-15 14:35:38,"2,765s",PASSED
+,,,,,,,
+Test Cases/Cas de test passant/03-Se connecter avec un compte google (MSR-2),,,,2022-11-15 14:35:38,2022-11-15 14:36:35,"57,378s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:35:38,2022-11-15 14:36:14,"36,391s",PASSED
+"tap(findTestObject(""Object Repository/03- Se connecter avec un compte google/android.widget.Button -Se connecter""), 0)",,,,2022-11-15 14:36:14,2022-11-15 14:36:16,"2,256s",PASSED
+"tap(findTestObject(""Object Repository/03- Se connecter avec un compte google/android.view.View Button social-google Login""), 0)",,,,2022-11-15 14:36:16,2022-11-15 14:36:25,"8,602s",PASSED
+"verifyElementNotVisible(findTestObject(""03- Se connecter avec un compte google/android.widget.TextView - Erreur 403 disallowed_useragent""), 0)",,,,2022-11-15 14:36:25,2022-11-15 14:36:35,"9,918s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/05- Se Connecter en mode Guest (MSR-219 et MSR-74),,,,2022-11-15 14:36:35,2022-11-15 14:37:23,"47,670s",PASSED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:36:35,2022-11-15 14:37:15,"39,334s",PASSED
+"tap(findTestObject(""Object Repository/05-Se connecter en mode Guest/android.widget.Button Continuer en mode guest""), 0)",,,,2022-11-15 14:37:15,2022-11-15 14:37:17,"2,397s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/05-Se connecter en mode Guest/android.view.View - Onglet Livraison de colis""), 0)",,,,2022-11-15 14:37:17,2022-11-15 14:37:20,"2,666s",PASSED
+closeApplication(),,,,2022-11-15 14:37:20,2022-11-15 14:37:23,"3,091s",PASSED
+,,,,,,,
+Test Cases/Cas de test passant/06- Inscription avec le lien Inscriver-vous (MSR-2),,,,2022-11-15 14:37:23,2022-11-15 14:38:36,"1m - 13,441s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:37:23,2022-11-15 14:37:56,"33,335s",PASSED
+"tap(findTestObject(""Object Repository/06- Inscription avec le lien Inscrivez-vous/android.widget.Button Inscrivez-vous""), 0)",,,,2022-11-15 14:37:56,2022-11-15 14:37:59,"2,388s",PASSED
+"verifyElementVisible(findTestObject(""06- Inscription avec le lien Inscrivez-vous/android.widget.TextView - Senregistrer""), 0)",,,,2022-11-15 14:37:59,2022-11-15 14:38:36,"37,514s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/07- Modification de mot de passe oublier (MSR-3 et MSR-27),,,,2022-11-15 14:38:36,2022-11-15 14:39:34,"58,085s",PASSED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:38:36,2022-11-15 14:39:12,"35,854s",PASSED
+"tap(findTestObject(""Object Repository/07-Modification de mot de passe oublié/android.widget.Button-Se connecter""), 0)",,,,2022-11-15 14:39:12,2022-11-15 14:39:15,"2,494s",PASSED
+"tap(findTestObject(""Object Repository/07-Modification de mot de passe oublié/android.widget.TextView - Mot de passe oubli""), 0)",,,,2022-11-15 14:39:15,2022-11-15 14:39:24,"9,397s",PASSED
+"tap(findTestObject(""07-Modification de mot de passe oublié/android.widget.EditText-username""), 0)",,,,2022-11-15 14:39:24,2022-11-15 14:39:25,"0,610s",PASSED
+"setText(findTestObject(""Object Repository/07-Modification de mot de passe oublié/android.widget.EditText-username""), ""pacorabanne@yopmail.com"", 0)",,,,2022-11-15 14:39:25,2022-11-15 14:39:27,"2,083s",PASSED
+"tap(findTestObject(""Object Repository/07-Modification de mot de passe oublié/android.widget.Button - Soumettre""), 0)",,,,2022-11-15 14:39:27,2022-11-15 14:39:29,"2,169s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/07-Modification de mot de passe oublié/android.widget.TextView - Vous devriez recevoir rapidement un courriel avec de plus amples instructions""), 0)",,,,2022-11-15 14:39:29,2022-11-15 14:39:31,"2,046s",PASSED
+closeApplication(),,,,2022-11-15 14:39:31,2022-11-15 14:39:34,"3,223s",PASSED
+,,,,,,,
+Test Cases/Cas de test passant/08- Accéder au service de livraison de colis (MSR-283),,,,2022-11-15 14:39:34,2022-11-15 14:40:23,"49,200s",PASSED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:39:34,2022-11-15 14:40:10,"35,589s",PASSED
+"tap(findTestObject(""Object Repository/08-Accéder au service de livraison de colis/android.widget.Button-Continuer en mode Guest""), 0)",,,,2022-11-15 14:40:10,2022-11-15 14:40:12,"2,368s",PASSED
+"tap(findTestObject(""Object Repository/08-Accéder au service de livraison de colis/android.view.View- Onglet  Livraison de colis""), 0)",,,,2022-11-15 14:40:12,2022-11-15 14:40:15,"2,954s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/08-Accéder au service de livraison de colis/android.widget.EditText - Adresse de collecte""), 0)",,,,2022-11-15 14:40:15,2022-11-15 14:40:20,"4,511s",PASSED
+closeApplication(),,,,2022-11-15 14:40:20,2022-11-15 14:40:23,"3,582s",PASSED
+,,,,,,,
+Test Cases/Cas de test passant/09-Accéder au service faire sa course en ligne (MSR-283),,,,2022-11-15 14:40:23,2022-11-15 14:41:13,"49,705s",PASSED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:40:24,2022-11-15 14:41:02,"37,920s",PASSED
+"tap(findTestObject(""Object Repository/09-Accéder au service Faire sa course en ligne/android.widget.Button-Continuer en mode Guest""), 0)",,,,2022-11-15 14:41:02,2022-11-15 14:41:05,"3,032s",PASSED
+"tap(findTestObject(""Object Repository/09-Accéder au service Faire sa course en ligne/android.view.View-Onglet Faire ses courses""), 0)",,,,2022-11-15 14:41:05,2022-11-15 14:41:07,"2,773s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/09-Accéder au service Faire sa course en ligne/android.widget.EditText - Votre adresse""), 0)",,,,2022-11-15 14:41:07,2022-11-15 14:41:10,"2,449s",PASSED
+closeApplication(),,,,2022-11-15 14:41:10,2022-11-15 14:41:13,"3,322s",PASSED
+,,,,,,,
+Test Cases/Cas de test passant/10-Saisir ses adresses de collecte et de livraison MSR-214),,,,2022-11-15 14:41:13,2022-11-15 14:42:22,"1m - 9,059s",PASSED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:41:13,2022-11-15 14:41:48,"34,894s",PASSED
+"tap(findTestObject(""Object Repository/10-Saisir ses adresses de collecte et de livraison/android.widget.Button""), 0)",,,,2022-11-15 14:41:48,2022-11-15 14:41:50,"2,268s",PASSED
+"tap(findTestObject(""Object Repository/10-Saisir ses adresses de collecte et de livraison/android.view.View- Onglet Livraison de colis""), 0)",,,,2022-11-15 14:41:50,2022-11-15 14:41:53,"2,859s",PASSED
+"tap(findTestObject(""Object Repository/10-Saisir ses adresses de collecte et de livraison/android.widget.EditText - Adresse de collecte""), 0)",,,,2022-11-15 14:41:53,2022-11-15 14:41:58,"4,234s",PASSED
+"tap(findTestObject(""Object Repository/10-Saisir ses adresses de collecte et de livraison/android.view.View-Ma position""), 0)",,,,2022-11-15 14:41:58,2022-11-15 14:42:03,"5,430s",PASSED
+"tap(findTestObject(""Object Repository/10-Saisir ses adresses de collecte et de livraison/android.widget.EditText - Adresse de livraison""), 0)",,,,2022-11-15 14:42:03,2022-11-15 14:42:05,"2,264s",PASSED
+"setText(findTestObject(""Object Repository/10-Saisir ses adresses de collecte et de livraison/android.widget.EditText - Adresse de livraison (1)""), ""Pikine"", 0)",,,,2022-11-15 14:42:05,2022-11-15 14:42:09,"3,732s",PASSED
+"tap(findTestObject(""Object Repository/10-Saisir ses adresses de collecte et de livraison/android.view.View""), 0)",,,,2022-11-15 14:42:09,2022-11-15 14:42:11,"2,128s",PASSED
+"tap(findTestObject(""Object Repository/10-Saisir ses adresses de collecte et de livraison/android.widget.Button- Continuer""), 0)",,,,2022-11-15 14:42:11,2022-11-15 14:42:14,"2,612s",PASSED
+"verifyElementVisible(findTestObject(""10-Saisir ses adresses de collecte et de livraison/android.widget.ImageView""), 0)",,,,2022-11-15 14:42:14,2022-11-15 14:42:19,"4,845s",PASSED
+closeApplication(),,,,2022-11-15 14:42:19,2022-11-15 14:42:22,"3,610s",PASSED
+,,,,,,,
+Test Cases/Cas de test passant/11- Ajouter un colis au panier (MSR-295),,,,2022-11-15 14:42:22,2022-11-15 14:43:54,"1m - 31,442s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:42:22,2022-11-15 14:42:57,"34,891s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Continuer en mode Guest""), 0)",,,,2022-11-15 14:42:57,2022-11-15 14:43:00,"2,878s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View-Onglet  Livraison de colis""), 0)",,,,2022-11-15 14:43:00,2022-11-15 14:43:03,"2,880s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de collecte""), 0)",,,,2022-11-15 14:43:03,2022-11-15 14:43:08,"4,554s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Ma position""), 0)",,,,2022-11-15 14:43:08,2022-11-15 14:43:12,"4,247s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison""), 0)",,,,2022-11-15 14:43:12,2022-11-15 14:43:14,"2,534s",PASSED
+"setText(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison (1)""), ""Pikine Rue 10"", 0)",,,,2022-11-15 14:43:14,2022-11-15 14:43:17,"2,431s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Pikine Rue 10, Dakar, Senegal""), 0)",,,,2022-11-15 14:43:17,2022-11-15 14:43:54,"36,815s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/12- Retour à la page d ajout d un colis au panier (MSR-295),,,,2022-11-15 14:43:54,2022-11-15 14:45:29,"1m - 35,400s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:43:54,2022-11-15 14:44:33,"38,735s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Continuer en mode Guest""), 0)",,,,2022-11-15 14:44:33,2022-11-15 14:44:35,"2,330s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View-Onglet  Livraison de colis""), 0)",,,,2022-11-15 14:44:35,2022-11-15 14:44:38,"3,244s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de collecte""), 0)",,,,2022-11-15 14:44:38,2022-11-15 14:44:43,"4,630s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Ma position""), 0)",,,,2022-11-15 14:44:43,2022-11-15 14:44:47,"4,600s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison""), 0)",,,,2022-11-15 14:44:47,2022-11-15 14:44:49,"2,036s",PASSED
+"setText(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison (1)""), ""Pikine Rue 10"", 0)",,,,2022-11-15 14:44:49,2022-11-15 14:44:52,"2,928s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Pikine Rue 10, Dakar, Senegal""), 0)",,,,2022-11-15 14:44:52,2022-11-15 14:45:29,"36,697s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/13-Supprimer un colis du panier ( MSR-295),,,,2022-11-15 14:45:29,2022-11-15 14:48:10,"2m - 41,426s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:45:29,2022-11-15 14:46:08,"39,161s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Continuer en mode Guest""), 0)",,,,2022-11-15 14:46:08,2022-11-15 14:46:11,"2,394s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View-Onglet  Livraison de colis""), 0)",,,,2022-11-15 14:46:11,2022-11-15 14:46:14,"2,763s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de collecte""), 0)",,,,2022-11-15 14:46:14,2022-11-15 14:46:18,"4,376s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Ma position""), 0)",,,,2022-11-15 14:46:18,2022-11-15 14:46:23,"5,288s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison""), 0)",,,,2022-11-15 14:46:23,2022-11-15 14:46:25,"2,173s",PASSED
+"setText(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison (1)""), ""Pikine Rue 10"", 0)",,,,2022-11-15 14:46:25,2022-11-15 14:46:29,"3,288s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Pikine Rue 10, Dakar, Senegal""), 0)",,,,2022-11-15 14:46:29,2022-11-15 14:46:32,"2,840s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button Continuer""), 0)",,,,2022-11-15 14:46:32,2022-11-15 14:46:34,"2,031s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View""), 0)",,,,2022-11-15 14:46:34,2022-11-15 14:46:37,"3,629s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button""), 0)",,,,2022-11-15 14:46:37,2022-11-15 14:46:38,"0,908s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (1)""), 0)",,,,2022-11-15 14:46:38,2022-11-15 14:46:40,"1,696s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button (1)""), 0)",,,,2022-11-15 14:46:40,2022-11-15 14:46:42,"1,869s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (2)""), 0)",,,,2022-11-15 14:46:42,2022-11-15 14:46:43,"1,338s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button (2)""), 0)",,,,2022-11-15 14:46:43,2022-11-15 14:46:45,"1,611s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (3)""), 0)",,,,2022-11-15 14:46:45,2022-11-15 14:46:46,"1,111s",PASSED
+"checkElement(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.CheckBox-Beaut""), 0)",,,,2022-11-15 14:46:46,2022-11-15 14:46:47,"1,288s",PASSED
+"checkElement(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.CheckBox-Sant""), 0)",,,,2022-11-15 14:46:47,2022-11-15 14:46:49,"1,909s",PASSED
+"scrollToText(""Saisir la description exacte de votre colis"", CONTINUE_ON_FAILURE)",,,,2022-11-15 14:46:49,2022-11-15 14:47:32,"42,762s",FAILED
+"tap(findTestObject(""11-Ajouter un colis au panier/android.widget.EditText - Saisir la description exacte de votre colis (1)""), 0)",,,,2022-11-15 14:47:32,2022-11-15 14:48:10,"38,767s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/14-Valider mon panier (MSR-295),,,,2022-11-15 14:48:10,2022-11-15 14:49:41,"1m - 30,213s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:48:11,2022-11-15 14:48:42,"31,185s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Continuer en mode Guest""), 0)",,,,2022-11-15 14:48:42,2022-11-15 14:48:45,"3,232s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View-Onglet  Livraison de colis""), 0)",,,,2022-11-15 14:48:45,2022-11-15 14:48:48,"2,883s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de collecte""), 0)",,,,2022-11-15 14:48:48,2022-11-15 14:48:52,"4,415s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Ma position""), 0)",,,,2022-11-15 14:48:52,2022-11-15 14:48:58,"5,159s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison""), 0)",,,,2022-11-15 14:48:58,2022-11-15 14:49:01,"3,725s",PASSED
+"setText(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison (1)""), ""Pikine Rue 10"", 0)",,,,2022-11-15 14:49:01,2022-11-15 14:49:04,"2,826s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Pikine Rue 10, Dakar, Senegal""), 0)",,,,2022-11-15 14:49:04,2022-11-15 14:49:06,"2,358s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button Continuer""), 0)",,,,2022-11-15 14:49:06,2022-11-15 14:49:08,"1,802s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View""), 0)",,,,2022-11-15 14:49:08,2022-11-15 14:49:12,"3,930s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button""), 0)",,,,2022-11-15 14:49:12,2022-11-15 14:49:13,"0,688s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (1)""), 0)",,,,2022-11-15 14:49:13,2022-11-15 14:49:15,"1,846s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button (1)""), 0)",,,,2022-11-15 14:49:15,2022-11-15 14:49:16,"1,312s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (2)""), 0)",,,,2022-11-15 14:49:16,2022-11-15 14:49:17,"1,018s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button (2)""), 0)",,,,2022-11-15 14:49:17,2022-11-15 14:49:18,"1,137s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (3)""), 0)",,,,2022-11-15 14:49:18,2022-11-15 14:49:20,"1,483s",PASSED
+"checkElement(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.CheckBox-Beaut""), 0)",,,,2022-11-15 14:49:20,2022-11-15 14:49:21,"1,304s",PASSED
+"checkElement(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.CheckBox-Sant""), 0)",,,,2022-11-15 14:49:21,2022-11-15 14:49:22,"1,139s",PASSED
+"scrollToText(""Saisir la description exacte de votre colis"", CONTINUE_ON_FAILURE)",,,,2022-11-15 14:49:22,2022-11-15 14:49:25,"2,933s",PASSED
+"tap(findTestObject(""11-Ajouter un colis au panier/android.widget.EditText - Saisir la description exacte de votre colis (1)""), 0)",,,,2022-11-15 14:49:25,2022-11-15 14:49:26,"0,668s",PASSED
+"setText(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Saisir la description exacte de votre colis (1)""), ""Baume"", 0)",,,,2022-11-15 14:49:26,2022-11-15 14:49:27,"1,627s",PASSED
+pressBack(),,,,2022-11-15 14:49:27,2022-11-15 14:49:28,"1,095s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Ajouter au panier""), 0)",,,,2022-11-15 14:49:28,2022-11-15 14:49:30,"1,575s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Valider mon panier""), 0)",,,,2022-11-15 14:49:30,2022-11-15 14:49:32,"2,348s",PASSED
+"tap(findTestObject(""Object Repository/14-ValiderMonPanier/ButtonValiderMonPanier""), 0)",,,,2022-11-15 14:49:32,2022-11-15 14:49:33,"0,229s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/14-ValiderMonPanier/TextInformations""), 0)",,,,2022-11-15 14:49:33,2022-11-15 14:49:41,"8,108s",FAILED
+,,,,,,,
+Test Cases/Cas de test passant/15-Cliquer sur le pictogramme panier (MSR-295),,,,2022-11-15 14:49:41,2022-11-15 14:51:14,"1m - 33,068s",PASSED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:49:41,2022-11-15 14:50:18,"37,498s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Continuer en mode Guest""), 0)",,,,2022-11-15 14:50:18,2022-11-15 14:50:21,"2,765s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View-Onglet  Livraison de colis""), 0)",,,,2022-11-15 14:50:21,2022-11-15 14:50:24,"2,965s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de collecte""), 0)",,,,2022-11-15 14:50:24,2022-11-15 14:50:28,"4,281s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Ma position""), 0)",,,,2022-11-15 14:50:28,2022-11-15 14:50:34,"5,119s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison""), 0)",,,,2022-11-15 14:50:34,2022-11-15 14:50:36,"2,542s",PASSED
+"setText(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison (1)""), ""Pikine Rue 10"", 0)",,,,2022-11-15 14:50:36,2022-11-15 14:50:39,"3,336s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Pikine Rue 10, Dakar, Senegal""), 0)",,,,2022-11-15 14:50:39,2022-11-15 14:50:41,"2,063s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button Continuer""), 0)",,,,2022-11-15 14:50:41,2022-11-15 14:50:43,"1,936s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View""), 0)",,,,2022-11-15 14:50:43,2022-11-15 14:50:47,"3,369s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button""), 0)",,,,2022-11-15 14:50:47,2022-11-15 14:50:48,"1,009s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (1)""), 0)",,,,2022-11-15 14:50:48,2022-11-15 14:50:49,"1,500s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button (1)""), 0)",,,,2022-11-15 14:50:49,2022-11-15 14:50:51,"1,273s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (2)""), 0)",,,,2022-11-15 14:50:51,2022-11-15 14:50:52,"0,990s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button (2)""), 0)",,,,2022-11-15 14:50:52,2022-11-15 14:50:53,"1,267s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (3)""), 0)",,,,2022-11-15 14:50:53,2022-11-15 14:50:54,"1,014s",PASSED
+"checkElement(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.CheckBox-Beaut""), 0)",,,,2022-11-15 14:50:54,2022-11-15 14:50:55,"1,277s",PASSED
+"checkElement(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.CheckBox-Sant""), 0)",,,,2022-11-15 14:50:55,2022-11-15 14:50:56,"1,088s",PASSED
+"scrollToText(""Saisir la description exacte de votre colis"", CONTINUE_ON_FAILURE)",,,,2022-11-15 14:50:56,2022-11-15 14:50:59,"3,064s",PASSED
+"tap(findTestObject(""11-Ajouter un colis au panier/android.widget.EditText - Saisir la description exacte de votre colis (1)""), 0)",,,,2022-11-15 14:50:59,2022-11-15 14:51:00,"0,626s",PASSED
+"setText(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Saisir la description exacte de votre colis (1)""), ""Baume"", 0)",,,,2022-11-15 14:51:00,2022-11-15 14:51:02,"1,677s",PASSED
+pressBack(),,,,2022-11-15 14:51:02,2022-11-15 14:51:03,"1,353s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Ajouter au panier""), 0)",,,,2022-11-15 14:51:03,2022-11-15 14:51:04,"1,469s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Valider mon panier""), 0)",,,,2022-11-15 14:51:04,2022-11-15 14:51:06,"2,138s",PASSED
+"tap(findTestObject(""Object Repository/12-Retour a la page d ajout d un colis/ButtonBack""), 0)",,,,2022-11-15 14:51:06,2022-11-15 14:51:07,"0,356s",PASSED
+"tap(findTestObject(""15-CliquerSurLePictoPanier/PictogrammePanier""), 0)",,,,2022-11-15 14:51:07,2022-11-15 14:51:09,"2,214s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/15-CliquerSurLePictoPanier/TextMonPanier""), 0)",,,,2022-11-15 14:51:09,2022-11-15 14:51:10,"0,980s",PASSED
+closeApplication(),,,,2022-11-15 14:51:10,2022-11-15 14:51:14,"3,695s",PASSED
+,,,,,,,
+Test Cases/Cas de test passant/16- Cliquer sur le bouton suivant après ajout dinformation complémentaire pour le shopper (MSR-297),,,,2022-11-15 14:51:14,2022-11-15 14:51:14,"0,167s",PASSED
+return null,,,,2022-11-15 14:51:14,2022-11-15 14:51:14,"0,000s",PASSED
+,,,,,,,
+Test Cases/Cas de test passant/22-Ajouter les informations de l expéditeur en mode Guest,,,,2022-11-15 14:51:14,2022-11-15 14:53:03,"1m - 48,671s",PASSED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:51:14,2022-11-15 14:51:51,"36,500s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Continuer en mode Guest""), 0)",,,,2022-11-15 14:51:51,2022-11-15 14:51:53,"2,405s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View-Onglet  Livraison de colis""), 0)",,,,2022-11-15 14:51:53,2022-11-15 14:51:56,"2,889s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de collecte""), 0)",,,,2022-11-15 14:51:56,2022-11-15 14:52:01,"4,891s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Ma position""), 0)",,,,2022-11-15 14:52:01,2022-11-15 14:52:05,"4,087s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison""), 0)",,,,2022-11-15 14:52:05,2022-11-15 14:52:08,"2,954s",PASSED
+"setText(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison (1)""), ""Pikine Rue 10"", 0)",,,,2022-11-15 14:52:08,2022-11-15 14:52:11,"3,476s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Pikine Rue 10, Dakar, Senegal""), 0)",,,,2022-11-15 14:52:11,2022-11-15 14:52:14,"2,305s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button Continuer""), 0)",,,,2022-11-15 14:52:14,2022-11-15 14:52:16,"2,068s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View""), 0)",,,,2022-11-15 14:52:16,2022-11-15 14:52:19,"3,813s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button""), 0)",,,,2022-11-15 14:52:19,2022-11-15 14:52:20,"0,692s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (1)""), 0)",,,,2022-11-15 14:52:20,2022-11-15 14:52:22,"1,682s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button (1)""), 0)",,,,2022-11-15 14:52:22,2022-11-15 14:52:23,"1,408s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (2)""), 0)",,,,2022-11-15 14:52:23,2022-11-15 14:52:24,"0,952s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button (2)""), 0)",,,,2022-11-15 14:52:24,2022-11-15 14:52:25,"1,050s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (3)""), 0)",,,,2022-11-15 14:52:25,2022-11-15 14:52:27,"1,431s",PASSED
+"checkElement(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.CheckBox-Beaut""), 0)",,,,2022-11-15 14:52:27,2022-11-15 14:52:28,"1,281s",PASSED
+"checkElement(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.CheckBox-Sant""), 0)",,,,2022-11-15 14:52:28,2022-11-15 14:52:30,"1,824s",PASSED
+"scrollToText(""Saisir la description exacte de votre colis"", CONTINUE_ON_FAILURE)",,,,2022-11-15 14:52:30,2022-11-15 14:52:33,"3,035s",PASSED
+"tap(findTestObject(""11-Ajouter un colis au panier/android.widget.EditText - Saisir la description exacte de votre colis (1)""), 0)",,,,2022-11-15 14:52:33,2022-11-15 14:52:34,"0,673s",PASSED
+"setText(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Saisir la description exacte de votre colis (1)""), ""Baume"", 0)",,,,2022-11-15 14:52:34,2022-11-15 14:52:35,"1,524s",PASSED
+pressBack(),,,,2022-11-15 14:52:35,2022-11-15 14:52:36,"1,196s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Ajouter au panier""), 0)",,,,2022-11-15 14:52:36,2022-11-15 14:52:38,"1,612s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Valider mon panier""), 0)",,,,2022-11-15 14:52:38,2022-11-15 14:52:40,"2,062s",PASSED
+"tap(findTestObject(""Object Repository/14-ValiderMonPanier/ButtonValiderMonPanier""), 0)",,,,2022-11-15 14:52:40,2022-11-15 14:52:41,"0,701s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Nom""), 0)",,,,2022-11-15 14:52:41,2022-11-15 14:52:42,"1,745s",PASSED
+"setText(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Nom (1)""), ""DIOP"", 0)",,,,2022-11-15 14:52:42,2022-11-15 14:52:44,"1,468s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Prnom""), 0)",,,,2022-11-15 14:52:44,2022-11-15 14:52:45,"1,053s",PASSED
+"setText(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Prnom (1)""), ""Elhadji Ousseynou"", 0)",,,,2022-11-15 14:52:45,2022-11-15 14:52:47,"1,824s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Email""), 0)",,,,2022-11-15 14:52:47,2022-11-15 14:52:48,"1,057s",PASSED
+"setText(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Email (1)""), ""pacorabanne@yopmail.com"", 0)",,,,2022-11-15 14:52:48,2022-11-15 14:52:49,"1,136s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.ImageView""), 0)",,,,2022-11-15 14:52:49,2022-11-15 14:52:50,"1,063s",PASSED
+"tap(findTestObject(""22-Ajouter les informations de l expéditeure/Algeria""), 0)",,,,2022-11-15 14:52:50,2022-11-15 14:52:54,"3,670s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Numro""), 0)",,,,2022-11-15 14:52:54,2022-11-15 14:52:54,"0,352s",PASSED
+"setText(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Numro (1)""), ""770000000"", 0)",,,,2022-11-15 14:52:54,2022-11-15 14:52:55,"1,370s",PASSED
+pressBack(),,,,2022-11-15 14:52:55,2022-11-15 14:52:56,"0,734s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.Button""), 0)",,,,2022-11-15 14:52:56,2022-11-15 14:52:57,"1,103s",PASSED
+"verifyElementVisible(findTestObject(""22-Ajouter les informations de l expéditeure/android.widget.EditText - Nom du destinataire""), 0)",,,,2022-11-15 14:52:57,2022-11-15 14:52:59,"1,527s",PASSED
+closeApplication(),,,,2022-11-15 14:52:59,2022-11-15 14:53:03,"3,865s",PASSED
+,,,,,,,
+Test Cases/Cas de test passant/23- Ajouter les informations du destinataire en mode Guest,,,,2022-11-15 14:53:03,2022-11-15 14:55:05,"2m - 1,979s",PASSED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:53:03,2022-11-15 14:53:40,"37,064s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Continuer en mode Guest""), 0)",,,,2022-11-15 14:53:40,2022-11-15 14:53:42,"2,595s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View-Onglet  Livraison de colis""), 0)",,,,2022-11-15 14:53:42,2022-11-15 14:53:45,"2,743s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de collecte""), 0)",,,,2022-11-15 14:53:45,2022-11-15 14:53:50,"4,615s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Ma position""), 0)",,,,2022-11-15 14:53:50,2022-11-15 14:53:54,"4,427s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison""), 0)",,,,2022-11-15 14:53:54,2022-11-15 14:53:57,"2,944s",PASSED
+"setText(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison (1)""), ""Pikine Rue 10"", 0)",,,,2022-11-15 14:53:57,2022-11-15 14:54:01,"3,603s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Pikine Rue 10, Dakar, Senegal""), 0)",,,,2022-11-15 14:54:01,2022-11-15 14:54:03,"2,551s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button Continuer""), 0)",,,,2022-11-15 14:54:03,2022-11-15 14:54:05,"2,004s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View""), 0)",,,,2022-11-15 14:54:05,2022-11-15 14:54:09,"3,986s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button""), 0)",,,,2022-11-15 14:54:09,2022-11-15 14:54:10,"0,717s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (1)""), 0)",,,,2022-11-15 14:54:10,2022-11-15 14:54:12,"1,788s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button (1)""), 0)",,,,2022-11-15 14:54:12,2022-11-15 14:54:13,"1,293s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (2)""), 0)",,,,2022-11-15 14:54:13,2022-11-15 14:54:15,"1,926s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button (2)""), 0)",,,,2022-11-15 14:54:15,2022-11-15 14:54:15,"0,238s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (3)""), 0)",,,,2022-11-15 14:54:15,2022-11-15 14:54:17,"1,288s",PASSED
+"checkElement(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.CheckBox-Beaut""), 0)",,,,2022-11-15 14:54:17,2022-11-15 14:54:18,"1,268s",PASSED
+"checkElement(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.CheckBox-Sant""), 0)",,,,2022-11-15 14:54:18,2022-11-15 14:54:19,"1,062s",PASSED
+"scrollToText(""Saisir la description exacte de votre colis"", STOP_ON_FAILURE)",,,,2022-11-15 14:54:19,2022-11-15 14:54:22,"2,844s",PASSED
+"tap(findTestObject(""11-Ajouter un colis au panier/android.widget.EditText - Saisir la description exacte de votre colis (1)""), 0)",,,,2022-11-15 14:54:22,2022-11-15 14:54:22,"0,586s",PASSED
+"setText(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Saisir la description exacte de votre colis (1)""), ""Baume"", 0)",,,,2022-11-15 14:54:22,2022-11-15 14:54:24,"1,500s",PASSED
+pressBack(),,,,2022-11-15 14:54:24,2022-11-15 14:54:25,"1,046s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Ajouter au panier""), 0)",,,,2022-11-15 14:54:25,2022-11-15 14:54:27,"1,671s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Valider mon panier""), 0)",,,,2022-11-15 14:54:27,2022-11-15 14:54:29,"2,029s",PASSED
+"tap(findTestObject(""Object Repository/14-ValiderMonPanier/ButtonValiderMonPanier""), 0)",,,,2022-11-15 14:54:29,2022-11-15 14:54:29,"0,700s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Nom""), 0)",,,,2022-11-15 14:54:29,2022-11-15 14:54:32,"2,476s",PASSED
+"setText(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Nom (1)""), ""DIOP"", 0)",,,,2022-11-15 14:54:32,2022-11-15 14:54:33,"1,313s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Prnom""), 0)",,,,2022-11-15 14:54:33,2022-11-15 14:54:34,"1,037s",PASSED
+"setText(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Prnom (1)""), ""Elhadji Ousseynou"", 0)",,,,2022-11-15 14:54:34,2022-11-15 14:54:35,"1,174s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Email""), 0)",,,,2022-11-15 14:54:35,2022-11-15 14:54:36,"1,194s",PASSED
+"setText(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Email (1)""), ""pacorabanne@yopmail.com"", 0)",,,,2022-11-15 14:54:36,2022-11-15 14:54:38,"1,290s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.ImageView""), 0)",,,,2022-11-15 14:54:38,2022-11-15 14:54:39,"1,041s",PASSED
+"tap(findTestObject(""22-Ajouter les informations de l expéditeure/Algeria""), 0)",,,,2022-11-15 14:54:39,2022-11-15 14:54:43,"3,790s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Numro""), 0)",,,,2022-11-15 14:54:43,2022-11-15 14:54:43,"0,372s",PASSED
+"setText(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Numro (1)""), ""770000000"", 0)",,,,2022-11-15 14:54:43,2022-11-15 14:54:44,"1,380s",PASSED
+pressBack(),,,,2022-11-15 14:54:44,2022-11-15 14:54:45,"0,227s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.Button""), 0)",,,,2022-11-15 14:54:45,2022-11-15 14:54:46,"1,045s",PASSED
+"tap(findTestObject(""Object Repository/23-Ajouter les informations du destinataire/android.widget.EditText - Nom du destinataire""), 0)",,,,2022-11-15 14:54:46,2022-11-15 14:54:47,"1,594s",PASSED
+"setText(findTestObject(""Object Repository/23-Ajouter les informations du destinataire/android.widget.EditText - Nom du destinataire (1)""), ""Anta"", 0)",,,,2022-11-15 14:54:47,2022-11-15 14:54:49,"1,427s",PASSED
+"tap(findTestObject(""Object Repository/23-Ajouter les informations du destinataire/android.widget.EditText - Numro de tlphone""), 0)",,,,2022-11-15 14:54:49,2022-11-15 14:54:50,"1,060s",PASSED
+"tap(findTestObject(""Object Repository/23-Ajouter les informations du destinataire/android.widget.EditText - Numro de tlphone""), 0)",,,,2022-11-15 14:54:50,2022-11-15 14:54:51,"1,201s",PASSED
+"setText(findTestObject(""23-Ajouter les informations du destinataire/android.widget.EditText - Numro de tlphone (1)""), ""77 000 00 00"", 0)",,,,2022-11-15 14:54:51,2022-11-15 14:54:52,"0,820s",PASSED
+"scrollToText(""Informations complémentaires"", STOP_ON_FAILURE)",,,,2022-11-15 14:54:52,2022-11-15 14:54:55,"3,232s",PASSED
+"tap(findTestObject(""23-Ajouter les informations du destinataire/EditText - Informations complmentaires pour aider le livreur  trouver plus facilement ladresse exacte ect""), 0)",,,,2022-11-15 14:54:55,2022-11-15 14:54:55,"0,391s",PASSED
+"setText(findTestObject(""23-Ajouter les informations du destinataire/EditText - Informations complmentaires pour aider le livreur  trouver plus facilement ladresse exacte ect""), ""En face Hypermarché Exclusive"", 0)",,,,2022-11-15 14:54:55,2022-11-15 14:54:57,"1,594s",PASSED
+pressBack(),,,,2022-11-15 14:54:57,2022-11-15 14:54:58,"1,289s",PASSED
+"tap(findTestObject(""Object Repository/23-Ajouter les informations du destinataire/android.widget.ButtonSuivant""), 0)",,,,2022-11-15 14:54:58,2022-11-15 14:54:59,"1,081s",PASSED
+"verifyElementVisible(findTestObject(""23-Ajouter les informations du destinataire/android.widget.EditText - Commentaire sur la livraison""), 0)",,,,2022-11-15 14:54:59,2022-11-15 14:55:01,"1,530s",PASSED
+closeApplication(),,,,2022-11-15 14:55:01,2022-11-15 14:55:05,"3,730s",PASSED
+,,,,,,,
+Test Cases/Cas de test passant/24-Notation du shopper et pourboire (MSR-222),,,,2022-11-15 14:55:05,2022-11-15 14:57:10,"2m - 5,328s",PASSED
+closeApplication(),,,,2022-11-15 14:55:05,2022-11-15 14:55:05,"0,001s",PASSED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:55:05,2022-11-15 14:55:42,"36,849s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Continuer en mode Guest""), 0)",,,,2022-11-15 14:55:42,2022-11-15 14:55:44,"2,208s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View-Onglet  Livraison de colis""), 0)",,,,2022-11-15 14:55:44,2022-11-15 14:55:47,"3,128s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de collecte""), 0)",,,,2022-11-15 14:55:47,2022-11-15 14:55:51,"4,487s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Ma position""), 0)",,,,2022-11-15 14:55:51,2022-11-15 14:55:56,"5,069s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison""), 0)",,,,2022-11-15 14:55:56,2022-11-15 14:55:59,"2,093s",PASSED
+"setText(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Adresse de livraison (1)""), ""Pikine Rue 10"", 0)",,,,2022-11-15 14:55:59,2022-11-15 14:56:03,"4,196s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View- Pikine Rue 10, Dakar, Senegal""), 0)",,,,2022-11-15 14:56:03,2022-11-15 14:56:05,"2,048s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button Continuer""), 0)",,,,2022-11-15 14:56:05,2022-11-15 14:56:07,"1,846s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View""), 0)",,,,2022-11-15 14:56:07,2022-11-15 14:56:10,"3,555s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button""), 0)",,,,2022-11-15 14:56:10,2022-11-15 14:56:11,"0,743s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (1)""), 0)",,,,2022-11-15 14:56:11,2022-11-15 14:56:13,"1,781s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button (1)""), 0)",,,,2022-11-15 14:56:13,2022-11-15 14:56:14,"1,362s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (2)""), 0)",,,,2022-11-15 14:56:14,2022-11-15 14:56:15,"0,999s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button (2)""), 0)",,,,2022-11-15 14:56:15,2022-11-15 14:56:16,"1,121s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.view.View (3)""), 0)",,,,2022-11-15 14:56:16,2022-11-15 14:56:18,"1,515s",PASSED
+"checkElement(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.CheckBox-Beaut""), 0)",,,,2022-11-15 14:56:18,2022-11-15 14:56:20,"2,088s",PASSED
+"checkElement(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.CheckBox-Sant""), 0)",,,,2022-11-15 14:56:20,2022-11-15 14:56:22,"1,727s",PASSED
+"scrollToText(""Saisir la description exacte de votre colis"", STOP_ON_FAILURE)",,,,2022-11-15 14:56:22,2022-11-15 14:56:24,"2,744s",PASSED
+"tap(findTestObject(""11-Ajouter un colis au panier/android.widget.EditText - Saisir la description exacte de votre colis (1)""), 0)",,,,2022-11-15 14:56:24,2022-11-15 14:56:25,"0,651s",PASSED
+"setText(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.EditText - Saisir la description exacte de votre colis (1)""), ""Baume"", 0)",,,,2022-11-15 14:56:25,2022-11-15 14:56:27,"1,603s",PASSED
+pressBack(),,,,2022-11-15 14:56:27,2022-11-15 14:56:28,"1,099s",PASSED
+"tap(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Ajouter au panier""), 0)",,,,2022-11-15 14:56:28,2022-11-15 14:56:29,"1,558s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/11-Ajouter un colis au panier/android.widget.Button-Valider mon panier""), 0)",,,,2022-11-15 14:56:29,2022-11-15 14:56:31,"2,057s",PASSED
+"tap(findTestObject(""Object Repository/14-ValiderMonPanier/ButtonValiderMonPanier""), 0)",,,,2022-11-15 14:56:31,2022-11-15 14:56:32,"0,726s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Nom""), 0)",,,,2022-11-15 14:56:32,2022-11-15 14:56:34,"1,663s",PASSED
+"setText(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Nom (1)""), ""DIOP"", 0)",,,,2022-11-15 14:56:34,2022-11-15 14:56:35,"1,390s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Prnom""), 0)",,,,2022-11-15 14:56:35,2022-11-15 14:56:36,"1,089s",PASSED
+"setText(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Prnom (1)""), ""Elhadji Ousseynou"", 0)",,,,2022-11-15 14:56:36,2022-11-15 14:56:37,"1,245s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Email""), 0)",,,,2022-11-15 14:56:37,2022-11-15 14:56:38,"1,066s",PASSED
+"setText(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Email (1)""), ""pacorabanne@yopmail.com"", 0)",,,,2022-11-15 14:56:38,2022-11-15 14:56:40,"1,184s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.ImageView""), 0)",,,,2022-11-15 14:56:40,2022-11-15 14:56:41,"1,061s",PASSED
+"tap(findTestObject(""22-Ajouter les informations de l expéditeure/Algeria""), 0)",,,,2022-11-15 14:56:41,2022-11-15 14:56:42,"1,406s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Numro""), 0)",,,,2022-11-15 14:56:42,2022-11-15 14:56:44,"2,054s",PASSED
+"setText(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.EditText - Numro (1)""), ""770000000"", 0)",,,,2022-11-15 14:56:44,2022-11-15 14:56:45,"1,278s",PASSED
+pressBack(),,,,2022-11-15 14:56:45,2022-11-15 14:56:46,"0,284s",PASSED
+"tap(findTestObject(""Object Repository/22-Ajouter les informations de l expéditeure/android.widget.Button""), 0)",,,,2022-11-15 14:56:46,2022-11-15 14:56:47,"1,255s",PASSED
+"tap(findTestObject(""Object Repository/23-Ajouter les informations du destinataire/android.widget.EditText - Nom du destinataire""), 0)",,,,2022-11-15 14:56:47,2022-11-15 14:56:49,"1,810s",PASSED
+"setText(findTestObject(""Object Repository/23-Ajouter les informations du destinataire/android.widget.EditText - Nom du destinataire (1)""), ""Anta"", 0)",,,,2022-11-15 14:56:49,2022-11-15 14:56:50,"1,438s",PASSED
+"tap(findTestObject(""Object Repository/23-Ajouter les informations du destinataire/android.widget.EditText - Numro de tlphone""), 0)",,,,2022-11-15 14:56:50,2022-11-15 14:56:51,"1,025s",PASSED
+"tap(findTestObject(""Object Repository/23-Ajouter les informations du destinataire/android.widget.EditText - Numro de tlphone""), 0)",,,,2022-11-15 14:56:51,2022-11-15 14:56:52,"1,203s",PASSED
+"setText(findTestObject(""23-Ajouter les informations du destinataire/android.widget.EditText - Numro de tlphone (1)""), ""77 000 00 00"", 0)",,,,2022-11-15 14:56:52,2022-11-15 14:56:53,"0,334s",PASSED
+"scrollToText(""Informations complémentaires"", STOP_ON_FAILURE)",,,,2022-11-15 14:56:53,2022-11-15 14:56:56,"3,228s",PASSED
+"tap(findTestObject(""23-Ajouter les informations du destinataire/EditText - Informations complmentaires pour aider le livreur  trouver plus facilement ladresse exacte ect""), 0)",,,,2022-11-15 14:56:56,2022-11-15 14:56:56,"0,366s",PASSED
+"setText(findTestObject(""23-Ajouter les informations du destinataire/EditText - Informations complmentaires pour aider le livreur  trouver plus facilement ladresse exacte ect""), ""En face Hypermarché Exclusive"", 0)",,,,2022-11-15 14:56:56,2022-11-15 14:56:58,"1,420s",PASSED
+pressBack(),,,,2022-11-15 14:56:58,2022-11-15 14:56:59,"1,350s",PASSED
+"tap(findTestObject(""Object Repository/23-Ajouter les informations du destinataire/android.widget.ButtonSuivant""), 0)",,,,2022-11-15 14:56:59,2022-11-15 14:57:00,"1,083s",PASSED
+"tap(findTestObject(""Object Repository/24-Notation du shopper et pourboire/ChoisirLeNombreD toiles""), 0)",,,,2022-11-15 14:57:00,2022-11-15 14:57:02,"2,105s",PASSED
+"tap(findTestObject(""Object Repository/24-Notation du shopper et pourboire/android.widget.EditText - Commentaire sur la livraison""), 0)",,,,2022-11-15 14:57:02,2022-11-15 14:57:03,"0,339s",PASSED
+"setText(findTestObject(""Object Repository/24-Notation du shopper et pourboire/android.widget.EditText - Commentaire sur la livraison (1)""), ""Rapide"", 0)",,,,2022-11-15 14:57:03,2022-11-15 14:57:04,"1,222s",PASSED
+"tap(findTestObject(""Object Repository/24-Notation du shopper et pourboire/android.widget.EditText - Entrez un montant de votre choix""), 0)",,,,2022-11-15 14:57:04,2022-11-15 14:57:05,"1,339s",PASSED
+"setText(findTestObject(""Object Repository/24-Notation du shopper et pourboire/android.widget.EditText - Entrez un montant de votre choix (1)""), ""1000"", 0)",,,,2022-11-15 14:57:05,2022-11-15 14:57:06,"1,240s",PASSED
+pressBack(),,,,2022-11-15 14:57:06,2022-11-15 14:57:07,"0,690s",PASSED
+"tap(findTestObject(""Object Repository/24-Notation du shopper et pourboire/android.widget.ButtonEnvoyé""), 0)",,,,2022-11-15 14:57:07,2022-11-15 14:57:09,"1,688s",PASSED
+"verifyElementVisible(findTestObject(""Object Repository/24-Notation du shopper et pourboire/MessageDeRemerciement""), 0)",,,,2022-11-15 14:57:09,2022-11-15 14:57:10,"1,040s",PASSED
+,,,,,,,
+Test Cases/Cas de test passant/02-Se connecter avec ses identifiants (MSR-2),,,,2022-11-15 14:57:10,2022-11-15 14:57:44,"33,852s",FAILED
+"startApplication(""C:\Users\Ousseynou Diop\Desktop\APK Client\app-debug.apk"", true)",,,,2022-11-15 14:57:10,2022-11-15 14:57:44,"33,658s",FAILED

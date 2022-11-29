@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>07- Modification de mot de passe oublier (MSR-3 et MSR-27)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b175db51-301f-4443-9c01-a21ed06b58ef</testCaseGuid>
+</TestCaseEntity>

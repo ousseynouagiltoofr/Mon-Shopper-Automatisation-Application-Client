@@ -17,11 +17,17 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+'Le client ouvre l\'application'
 Mobile.startApplication('C:\\Users\\Ousseynou Diop\\Desktop\\APK Client\\app-debug.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/05-Se connecter en mode Guest/android.widget.Button Continuer en mode guest'), 0)
+'Le client clique sur le bouton Continuer En Mode Guest'
+Mobile.tap(findTestObject('Object Repository/05-Se connecter en mode Guest/android.widget.Button Continuer en mode guest'), 
+    0)
 
-Mobile.verifyElementVisible(findTestObject('Object Repository/05-Se connecter en mode Guest/android.view.View - Onglet Livraison de colis'), 0)
+'Vérifier que l\'onglet Livraison de Colis s\'affiche'
+Mobile.verifyElementVisible(findTestObject('Object Repository/05-Se connecter en mode Guest/android.view.View - Onglet Livraison de colis'), 
+    0)
 
+'L e client ferme l\'application'
 Mobile.closeApplication()
 
